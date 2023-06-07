@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your order</title>
+    <link rel="stylesheet" href="practice8.css"/>
+</head>
+<body>
+    <header>
+        <h1>Ваш заказ</h1>
+        <ul class="menu">
+            <li>Обувь</li>
+            <li>Одежда</li>
+            <li>Аксессуары</li>
+            <li>Бренды</li>
+        </ul>
+    </header>
+    <div class="page">
+        <div class="order-form">
+            <div class="order-form-header">
+                <p>Заполните форму, чтобы получить информацию по Вашему заказу</p>
+            </div>
+            <div class="order-form-field">
+                <form action="" method="get" class="order-form">
+                    <div class="form-row">
+                        <label for="first-name">Имя</label>
+                        <input id="first-name" name="first-name" type="text"/>
+                    </div>
+                </form>
+                <form action="" method="get" class="order-form">
+                    <div class="form-row">
+                        <label for="last-name">Фамилия</label>
+                        <input id="last-name" name="last-name" type="text"/>
+                    </div>
+                </form>
+                <form action="" method="get" class="order-form">
+                    <div class="form-row">
+                        <label for="tel-number">Номер телефона</label>
+                        <input id="tel-number" name="tel-number" type="tel"/>
+                    </div>
+                </form>
+                <form action="" method="get" class="order-form">
+                    <div class="form-row">
+                        <label for="order-number">Номер заказа</label>
+                        <input id="order-number" name="order-number" type="number"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter-content">
+                <p>Подпишитесь на нашу рассылку и получите скидку 10%!</p>
+                <div class="email-field">
+                    <form action="" method="get" class="newsletter-form">
+                        <div class="form-row">
+                            <label for="email">Введите Ваш e-mail</label>
+                            <input id="email" type="email" name="email" placeholder="example@email.com">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="categories-content">
+                <form class="categories-form">
+                    <fieldset class="product-type">
+                        <legend>Выберите интересующие Вас категории</legend>
+                        <div class="checkbox-container">
+                        <input name="product-type" id="product-type-1" type="checkbox" value="men"/>
+                        <label for="product-type-1">Мужское</label>
+                        </div>
+                        <div class="checkbox-container">
+                        <input name="product-type" id="product-type-2" type="checkbox" value="women"/>
+                        <label for="product-type-2">Женское</label>
+                        </div>
+                        <div class="checkbox-container">
+                        <input name="product-type" id="product-type-3" type="checkbox" value="kids"/>
+                        <label for="product-type-3">Для детей</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Hey it's</h2>
+        <h2>Best clothes &copy2023</h2>
+    </footer>
+</body>
+</html>
